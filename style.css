@@ -1,35 +1,97 @@
 
-
-.headerlogo{
-
-  background-color: blue;
+header{
   display: flex;
-  justify-content: flex-start;
-}
-
-nav.nav-bar{
-  display: flex;
-  flex-direction: row;
-
-  margin-left: 600px;
-
+  justify-content: space-around;
+  background-color: #1f2937;
+  color: #f9faf8;
+  font-size: 24px;
  
 }
 
 
-ul.links{
+ul.nav-bar{
 
+  display: flex;
   list-style-type: none;
-  background-color: green;
-  display:flex;
-align-items: center;
-
- 
-  
-  
+  gap: 16px ;
   }
+
+
+li.links{
+  color: #f9faf8;
+  font-size: 18px;
+
+ }
+
+
+
 
 a{
   
   text-decoration: none;
+}
+
+div.logo{
+
+ background-color: #1f2937;
+  display: flex;
+  font-weight: bold;
+  font-size: 24px;
+
+ 
+}
+
+section.firstsection{
+  background-color: #1f2937;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-around;
+  margin:0px;
+  padding: 0px;
+
+
+
+
+}
+h1.title{
+
+  font-size: 48px;
+  font-weight: bold;
+  color: #f9faf8;
+
+}
+
+p.info{
+
+  font-size: 18px;
+  color: #e5e7eb;
+ 
+}
+
+button.buttonsp{
+
+  background-color: #3882f6;
+  border-radius: 5px;
+  width: 200px;
+  height: 100px;
+ 
+}
+
+img.pic1{
+
+  width: 300px;
+  height: auto;
+}
+
+#firstsc{
+
+
+
+}
+div.ajuste{
+
+  display: flex;
+  background-color: red;
+  flex-direction: column;
 }
